@@ -4,7 +4,8 @@ import Question from './Question.js';
 
 function App(){
 
-    const [questions, setQuestions] = useState(data);
+    //const [questions, setQuestions] = useState(data);
+    const questions = data;
 
     return <main>
         <div className='container'>
